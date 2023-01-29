@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testcases.LoginPageTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-01-29T10:06:09" hostname="DESKTOP-6GFGUQ4" time="204.65">
+  <properties/>
+  <testcase name="loginWithInValidCredentials[0](arnobaurthohin3@gmail.com, 1234567.0)" classname="testcases.LoginPageTest" time="5.105"/>
+  <testcase name="loginWithValidCredentials" classname="testcases.LoginPageTest" time="10.351"/>
+  <system-out><![CDATA[arnobaurthohin3@gmail.com
+1234567.0
+arif
+Wrong email/phone or password
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 57808
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 29, 2023 2:06:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jan 29, 2023 2:06:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 109, so returning the closest version found: 106
+Jan 29, 2023 2:06:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 109 of 106
+]]></system-err>
+</testsuite>
